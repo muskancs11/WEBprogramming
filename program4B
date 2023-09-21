@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+div{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example;
+animation-duration:5s;
+}
+@keyframes example{
+from{background-color:red;}
+to{background-color:blue;}
+}
+</head>
+</style>
+<body>
+<h1>Css Animation</h1>
+<div></div>
+<p><b>Note:</b>When the animation is finished it will goes back to its original style</p>
+</body>
+</html>
