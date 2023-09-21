@@ -1,0 +1,37 @@
+<html>
+<body>
+<h>An unorderd list</h>
+<ul>
+   <li>CSE</li>
+   <li>ISE</li>
+   <li>CSE-AI</li>
+</ul>
+<h> An odered list</h>
+<ol type="A">
+   <li>CSE</li>
+   <li>ISE</li>
+   <li>CSE-AI</li>
+   <li>ECE</li>
+</ol>
+
+<h>An Nested list</h>
+<ol> 
+   <li>COLLEGE</li>
+   <li>BRANCH
+       <ol>
+          <li>CSE</li>
+          <li>ISE</li>
+          <li>CSE-AI</li>
+       </ol>
+   <li>UNIVERSITY</li>
+</ol>
+
+<h>other (Description list)</h>
+<dl>
+<dt>CSE</dt>
+<dd>-Computer science and engineering-</dd>
+<dt>CSE-AI</dt>
+<dd>-Computer science and engineering-Artificial Intelligence</dd>
+</dl>
+</body>
+</html>
