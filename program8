@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+
+    <body bgcolor="blue">
+        <p id="myP1"></p>
+    </body>
+
+    <script>
+        textsize=5;
+        var myWait = setInterval(Growtext, 100);
+
+        function Growtext()
+        {
+            if(textsize<50)
+            {
+                textsize = textsize+1;
+                document.getElementById("myP1").innerHTML="SVCE";
+                document.getElementById("myP1").style.fontSize=(textsize+'pt');
+                document.getElementById("myP1").style.color="red";
+            }
+            else{
+                clearInterval(myWait);
+                myWait = setInterval(ShrinkText, 100);
+            }
+        }
+
+        function ShrinkText()
+        {
+            if(textsize>5)
+            {
+                textsize = textsize-1;
+                document.getElementById("myP1").innerHTML="SVCE";
+                document.getElementById("myP1").style.fontSize=(textsize+'pt');
+                document.getElementById("myP1").style.color="Green";
+            }
+            else{
+                clearInterval(myWait);
+            }
+        }
+    </script>
+</html>
