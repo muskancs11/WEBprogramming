@@ -1,0 +1,22 @@
+<html>
+    <center>
+        <h3 style="color:blue">Listing of movies</h3>
+        <script>
+            var seriesList=["omg2","dhamal","never have i ever","jawan"]
+            document.write("<b>Initially element in array:</b><br>"+seriesList+"<br>");
+
+            function addObject()
+            {
+                var movie=document.getElementById("mv").value;
+                seriesList.push(movie);
+                document.getElementById("result").innerHTML="<b>Array after adding new elements:</b><br>"+seriesList;
+            }
+        </script>
+        <body>
+            <p>Enter the movie name and Click the button to add it to the list</p>
+            <input type="text" id="mv">
+            <button type="submit" onclick="addObject()">adding movie</button>
+            <h4 id="result"></h4>
+        </body>
+    </center>
+</html>
