@@ -1,0 +1,23 @@
+<html>
+<head>
+<style>
+p{
+background-color:red;
+}
+div{
+background-color:yellow;
+}
+h{
+background-color:green;
+}
+</style>
+</head>
+<body>
+<h>CSS BACKGROUND_COLOR EXAMPLE!!</h>
+<div>
+this the text  inside div element
+<p>This ids the colour for p tag,it has its own colour</p>
+this is also in div content
+</div>
+</body>
+</html>
