@@ -1,0 +1,16 @@
+<html>
+<head>
+<style>
+div{
+color:blue;
+border:10px solid currentcolor;
+padding:15px;
+}
+</style>
+</head>
+<body>
+<h>The keyword currentcolor is used</h>
+<p> the currentcolor is specified for the current value of color property in the element</p>
+<div> it has blue color text and border</div>
+</body>
+</html>
