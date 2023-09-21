@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <h3>using the<i>onclick event atribute</i>to invoke the particular function by user on check or uncheck checkbox</h3>
+
+        <lable for ="fruit">Fruits</lable>
+        <input type="checkbox" id="fruit" onclick="showFruits()">
+        <lable for="vegetable">Vegetables</lable>
+        <input type="checkbox" id="vegetable" onclick="showVegetabls()"><br><br>
+
+        <div id="vegetable-div">
+            <ul>
+                <li>carrat</li>
+                <li>tomato</li>
+                <li>onion</li>
+                <li>potato</li>
+                <li>ladyfinger</li>
+            </ul>
+        </div>
+        <div id="fruits-div">
+            <ul>
+                <li>banana</li>
+                <li>mango</li>
+                <li>apple</li>
+                <li>pineapple</li>
+                <li>graps</li>
+            </ul>
+        </div>
+
+        <script>
+            function showFruits()
+            {
+                let fruit= document.getElementById("fruit");
+                let fruits_div= document.getElementById("fruits-div");
+
+                if(fruit.checked)
+                {
+                    fruits_div.style.display="flex";
+                }
+                else{
+                    fruits_div.style.display="none";
+                }
+            }
+
+            function showVegetabls()
+            {
+                let vegetable= document.getElementById("vegetable");
+                let vegetable_div= document.getElementById("vegetable-div");
+
+                if(fruit.checked)
+                {
+                    vegetable_div.style.display="flex";
+                }
+                else{
+                    vegetable_div.style.display="none";
+                }
+            }
+        </script>
+
+    </body>
+</html>
